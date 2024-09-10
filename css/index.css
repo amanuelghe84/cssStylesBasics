@@ -1,0 +1,20 @@
+.box-model{
+    /* opacity: .3; */
+    display: block;
+    min-width: 100px;
+    min-height: 100px;
+    padding: 50px;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.box-model:hover{
+    transform: scale(1.1)
+    transition: 0.5s;
+}
+.box.model h1{
+    colo:white
+    text-align: center
+    fontsize
+
+}
