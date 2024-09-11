@@ -9,12 +9,97 @@
     border-radius: 5px;
 }
 .box-model:hover{
-    transform: scale(1.1)
-    transition: 0.5s;
+    transform: scale(1.1);
+    transform: 0.5s;
 }
 .box.model h1{
-    colo:white
-    text-align: center
-    fontsize
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-shadow: 10px 10px 10px rgb(49, 254, 200);
+}
 
+#box-model-1{
+    background-color: rgb(0, 204, 255);
+    box-shadow: 10px 10px 10px rgb(255, 0, 102);
+}
+#box-model-1:hover{
+    background-color: blueviolet;
+}
+#box-model-2{
+    background-color: chartreuse;
+    box-shadow: 10px 10px 10px rgba(26, 9, 211, 0.625);
+}
+#box-model-2:hover{
+    background-color: rgb(20, 149, 255);
+}
+/* hover = behavior or event */
+
+/* ul{
+    list-style: none;
+} 
+ol{
+    list-style: none;
+} */
+ul, ol{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    background-color: rgb(20, 255, 55);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px blue;
+
+    
+}
+ul li, ol li{
+    padding: 10px;
+    border-bottom: 2px solid  #0e12dfdf;
+}
+/* ul li:last-child, ol li:last-child{
+    border-bottom: none;
+    ul li:first-child, ol li:first-child{
+    border-bottom: none;
+    ul li:nth-child(even or odd)
+} */
+ul li:nth-child(even), ol li:nth-child(odd){
+    border-bottom: none;
+    background-color: blueviolet;
+}
+.image-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+img{
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 10px blue;
+    border-radius: 50%;
+    float: left;
+}
+img:hover{
+    /* transform: rotate(360deg); */
+     transform: perspective(1000px) rotate(180deg);
+    opacity: 1;
+    transition: 1s;
+
+}
+#visit{
+    display: block;
+    height: 100%;
+    width: 100%;
+
+}
+#visit a{
+    text-decoration: none;
+
+}
+#visit a:hover{
+    color: limegreen;
 }
